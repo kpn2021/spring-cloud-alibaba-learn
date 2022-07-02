@@ -1,13 +1,13 @@
-server:
-  port: ${port:9001}
+#server:
+#  port: ${port:9001}
 
 spring:
   application:
     name: payment-service
-  cloud:
-    nacos:
-      discovery:
-        server-addr: localhost:8848
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8848
 
   profiles:
     active: dev

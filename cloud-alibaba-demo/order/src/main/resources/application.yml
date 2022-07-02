@@ -1,10 +1,12 @@
-server:
-  port: 84
+#server:
+#  port: 84
 
 spring:
   application:
     name: order-srevice
-  cloud:
-    nacos:
-      discovery:
-        server-addr: localhost:8848
+  profiles:
+    active: dev
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8848
