@@ -1,0 +1,68 @@
+2022-07-02 14:06:46,702 INFO DEFAULT_GROUP@@payment-service is changed, add it to push queue.
+
+2022-07-02 14:06:46,728 INFO serviceName: DEFAULT_GROUP@@payment-service changed, schedule push for: 192.168.110.224:59197, agent: Nacos-Java-Client:v1.4.1, key: 192.168.110.224,59197,48410160144100
+
+2022-07-02 14:06:46,728 INFO send udp packet: 192.168.110.224,59197,48410160144100
+
+2022-07-02 14:06:46,732 INFO received ack: {"type": "push-ack", "lastRefTime":"48410160144100", "data":""} from: 192.168.110.224:59197, cost: 4 ms, unacked: 0, total push: 1
+
+2022-07-02 14:07:25,706 INFO DEFAULT_GROUP@@payment-service is changed, add it to push queue.
+
+2022-07-02 14:07:25,706 INFO serviceName: DEFAULT_GROUP@@payment-service changed, schedule push for: 192.168.110.224:59197, agent: Nacos-Java-Client:v1.4.1, key: 192.168.110.224,59197,48449150144000
+
+2022-07-02 14:07:25,712 INFO send udp packet: 192.168.110.224,59197,48449150144000
+
+2022-07-02 14:07:25,717 INFO received ack: {"type": "push-ack", "lastRefTime":"48449150144000", "data":""} from: 192.168.110.224:59197, cost: 5 ms, unacked: 0, total push: 2
+
+2022-07-02 14:11:42,128 INFO DEFAULT_GROUP@@payment-service is changed, add it to push queue.
+
+2022-07-02 14:11:42,128 INFO serviceName: DEFAULT_GROUP@@payment-service changed, schedule push for: 192.168.110.224:57382, agent: Nacos-Java-Client:v1.4.1, key: 192.168.110.224,57382,48705572216700
+
+2022-07-02 14:11:42,128 INFO send udp packet: 192.168.110.224,57382,48705572216700
+
+2022-07-02 14:11:42,132 INFO received ack: {"type": "push-ack", "lastRefTime":"48705572216700", "data":""} from: 192.168.110.224:57382, cost: 4 ms, unacked: 0, total push: 3
+
+2022-07-02 14:12:06,246 INFO DEFAULT_GROUP@@payment-service is changed, add it to push queue.
+
+2022-07-02 14:12:06,246 INFO serviceName: DEFAULT_GROUP@@payment-service changed, schedule push for: 192.168.110.224:57382, agent: Nacos-Java-Client:v1.4.1, key: 192.168.110.224,57382,48729689949400
+
+2022-07-02 14:12:06,246 INFO send udp packet: 192.168.110.224,57382,48729689949400
+
+2022-07-02 14:12:06,249 INFO received ack: {"type": "push-ack", "lastRefTime":"48729689949400", "data":""} from: 192.168.110.224:57382, cost: 3 ms, unacked: 0, total push: 4
+
+2022-07-02 14:12:57,980 INFO DEFAULT_GROUP@@payment-service is changed, add it to push queue.
+
+2022-07-02 14:12:57,980 INFO serviceName: DEFAULT_GROUP@@payment-service changed, schedule push for: 192.168.110.224:51872, agent: Nacos-Java-Client:v1.4.1, key: 192.168.110.224,51872,48781424168600
+
+2022-07-02 14:12:57,980 INFO send udp packet: 192.168.110.224,51872,48781424168600
+
+2022-07-02 14:12:57,983 INFO received ack: {"type": "push-ack", "lastRefTime":"48781424168600", "data":""} from: 192.168.110.224:51872, cost: 3 ms, unacked: 0, total push: 5
+
+2022-07-02 14:13:07,317 INFO DEFAULT_GROUP@@payment-service is changed, add it to push queue.
+
+2022-07-02 14:13:07,320 INFO serviceName: DEFAULT_GROUP@@payment-service changed, schedule push for: 192.168.110.224:51873, agent: Nacos-Java-Client:v1.4.1, key: 192.168.110.224,51873,48790761537600
+
+2022-07-02 14:13:07,320 INFO send udp packet: 192.168.110.224,51873,48790761537600
+
+2022-07-02 14:13:07,321 INFO serviceName: DEFAULT_GROUP@@payment-service changed, schedule push for: 192.168.110.224:51872, agent: Nacos-Java-Client:v1.4.1, key: 192.168.110.224,51872,48790761537600
+
+2022-07-02 14:13:07,321 INFO send udp packet: 192.168.110.224,51872,48790761537600
+
+2022-07-02 14:13:07,325 INFO received ack: {"type": "push-ack", "lastRefTime":"48790761537600", "data":""} from: 192.168.110.224:51873, cost: 5 ms, unacked: 1, total push: 7
+
+2022-07-02 14:13:07,326 INFO received ack: {"type": "push-ack", "lastRefTime":"48790761537600", "data":""} from: 192.168.110.224:51872, cost: 5 ms, unacked: 0, total push: 7
+
+2022-07-02 14:13:56,349 INFO DEFAULT_GROUP@@payment-service is changed, add it to push queue.
+
+2022-07-02 14:13:56,350 INFO serviceName: DEFAULT_GROUP@@payment-service changed, schedule push for: 192.168.110.224:51873, agent: Nacos-Java-Client:v1.4.1, key: 192.168.110.224,51873,48839793381100
+
+2022-07-02 14:13:56,350 INFO send udp packet: 192.168.110.224,51873,48839793381100
+
+2022-07-02 14:13:56,350 INFO serviceName: DEFAULT_GROUP@@payment-service changed, schedule push for: 192.168.110.224:51872, agent: Nacos-Java-Client:v1.4.1, key: 192.168.110.224,51872,48839793381100
+
+2022-07-02 14:13:56,350 INFO send udp packet: 192.168.110.224,51872,48839793381100
+
+2022-07-02 14:13:56,358 INFO received ack: {"type": "push-ack", "lastRefTime":"48839793381100", "data":""} from: 192.168.110.224:51872, cost: 8 ms, unacked: 1, total push: 9
+
+2022-07-02 14:13:56,358 INFO received ack: {"type": "push-ack", "lastRefTime":"48839793381100", "data":""} from: 192.168.110.224:51873, cost: 8 ms, unacked: 0, total push: 9
+

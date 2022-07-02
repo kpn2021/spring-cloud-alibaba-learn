@@ -1,0 +1,34 @@
+2022-07-02 14:06:45,690 INFO DEFAULT_GROUP@@payment-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.110.224:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-07-02 14:06:45,693 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@payment-service, ips: 192.168.110.224:9001_true,
+
+2022-07-02 14:07:24,691 INFO DEFAULT_GROUP@@payment-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.110.224:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-07-02 14:07:24,691 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@payment-service, ips: 
+
+2022-07-02 14:11:41,113 INFO DEFAULT_GROUP@@payment-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.110.224:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-07-02 14:11:41,113 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@payment-service, ips: 192.168.110.224:9001_true,
+
+2022-07-02 14:12:05,245 INFO DEFAULT_GROUP@@payment-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.110.224:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-07-02 14:12:05,245 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@payment-service, ips: 
+
+2022-07-02 14:12:56,974 INFO DEFAULT_GROUP@@payment-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.110.224:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-07-02 14:12:56,974 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@payment-service, ips: 192.168.110.224:9001_true,
+
+2022-07-02 14:13:06,309 INFO DEFAULT_GROUP@@payment-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.110.224:9002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-07-02 14:13:06,310 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@payment-service, ips: 192.168.110.224:9002_true,192.168.110.224:9001_true,
+
+2022-07-02 14:13:55,340 INFO DEFAULT_GROUP@@payment-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.110.224:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-07-02 14:13:55,340 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@payment-service, ips: 192.168.110.224:9002_true,
+
+2022-07-02 14:13:55,396 INFO DEFAULT_GROUP@@payment-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.110.224:9002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-07-02 14:13:55,396 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@payment-service, ips: 
+
+2022-07-02 14:14:30,435 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
