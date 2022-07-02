@@ -10,7 +10,7 @@ import org.springframework.web.context.annotation.RequestScope;
 @RestController
 @RequestScope
 public class PaymentController {
-    @Value("${config.info}")
+    @Value("${config.info:test}")
     private String configInfo;
 
 
