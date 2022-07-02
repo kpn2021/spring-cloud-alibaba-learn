@@ -1,0 +1,10 @@
+server:
+  port: 84
+
+spring:
+  application:
+    name: order-srevice
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
