@@ -2,14 +2,15 @@ package com.lxs.springcloud.alibaba;
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.Date;
+@Slf4j
 @RestController
 public class OrderController {
 
@@ -44,10 +45,45 @@ public class OrderController {
     private PaymentService paymentService;
 
     @GetMapping("/consumer/feign/{id}")
-    public ResponseEntity<String> consumerFeign(@PathVariable("id") Long id) {
-        ResponseEntity<String> result = paymentService.paymentSQL(id);
-        return ResponseEntity.ok("feign方式:订单调用支付成功,订单号=" + id + ",调用结果=" + result.getBody());
+    public ResultVO<String> consumerFeign(@PathVariable("id") Long id) {
+        return paymentService.paymentSQL(id);
+
     }
+
+
+    @GetMapping("/testHotKey")
+    @SentinelResource(value = "testHotKey",blockHandler = "dealTestHotKey")
+    public ResultVO<String> testHotKey(@RequestParam(value = "p1",required = false) String p1,
+                             @RequestParam(value = "p2",required = false) String p2){
+        log.info("p1:{}",p1);
+        log.info("p2:{}",p2);
+        log.info(Thread.currentThread().getName()+"\t"+"*****testHotKey******");
+        ResultVO<String> res = new ResultVO<>();
+        res.setSuccess(true);
+        res.setSource("/testHotKey");
+        res.setReqTime(String.valueOf(System.currentTimeMillis()));
+        res.setCode("200");
+        res.setMsg("ok");
+        res.setData("*****testHotKey******");
+        return res;
+    }
+
+
+    public ResultVO<String> dealTestHotKey(String p1,String p2,BlockException exception){
+        ResultVO<String> res = new ResultVO<>();
+        res.setSuccess(true);
+        res.setSource("/testHotKey");
+        res.setReqTime(String.valueOf(System.currentTimeMillis()));
+        res.setCode("200");
+        res.setMsg("ok");
+        res.setData("*****dealTestHotKey******");
+        return res;
+    }
+
+
+
+
+
 
 
 
